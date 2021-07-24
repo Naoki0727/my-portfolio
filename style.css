@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  padding-top: 10vh;
+  color: white;
+  text-align: center;
+}
+h2 {
+  padding-top: 10vh;
+  color: white;
+  text-align: center;
+}
+
+.mb_parallax_container {
+  height: 100vh;
+  width: 100vw;
+  border-bottom: 10px solid black;
+  padding-top: 20vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mb_parallax_overlay {
+  height: 60vh;
+  width: 60vw;
+  margin: auto;
+  background-color: black;
+  opacity: 0.9;
+}
+
+#add-one-button {
+  padding-top: 5vh;
+  color: white;
+  text-align: center;
+}
+
+#add-two-button {
+  padding-top: 5vh;
+  color: white;
+  text-align: center;
+}
+
+#add-three-button {
+  padding-top: 5vh;
+  color: white;
+  text-align: center;
+}
+
+#mb_parallax_one {
+  background-image: url(https://picsum.photos/900/300/);
+}
+
+#mb_parallax_two {
+  background-image: url(https://picsum.photos/800/300/);
+}
+
+#mb_parallax_three {
+  background-image: url(https://picsum.photos/700/300/);
+}
